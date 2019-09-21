@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -32,6 +34,6 @@
 }
 
 .activeCard {
-  color: red;
-  background: pink;
+  color: yellow;
+  background: rebeccapurple;
  }
