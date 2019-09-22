@@ -14,6 +14,7 @@ class App extends Component {
       <WordCard value= {word_rand} />
       <br></br><br></br>
       <p id="Round">Round 1 </p>
+      <p id="Try">Good Luck!</p><button className="card" id="new">New Game?</button>
     </div>
     );
   }  

@@ -34,6 +34,7 @@ Component {
             }
             else{
                 this.setState({guess: [], attempt: this.state.attempt + 1})
+                
                 console.log(`Try Again.`) 
             }   
         } 
