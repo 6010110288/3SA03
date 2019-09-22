@@ -18,6 +18,7 @@ class App extends Component {
       <WordCard value= {word_rand} />
       <br></br><br></br>
       <p id="Round">Round 1 </p>
+      <p id="status"><br></br></p>
       <p id="Try">Good Luck!</p><button id="new" onClick= {this.reload}>New Game?</button>
     </div>
     );

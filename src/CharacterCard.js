@@ -32,6 +32,7 @@ export default class CharacterCard extends Component {
             document.getElementById('Try').innerHTML = `Your last change`
         }
         else if(this.props.attempt == 6){
+            document.getElementById('status').innerHTML = `Lose!!`
             document.getElementById('Try').innerHTML = `Unlucky`
         }
     }

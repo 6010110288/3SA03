@@ -43,7 +43,7 @@ body{
   text-align: center;
   border: 5px solid white;
   width: 3em;
-  font-size: 2.5em;
+  font-size: 2em;
   box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
   margin: 0.5em;
   user-select: none;
@@ -64,7 +64,7 @@ body{
   text-align: center;
   border: 5px solid white;
   width: 10em;
-  font-size: 1.5em;
+  font-size: 1em;
   box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
   margin: 0.5em;
   user-select: none;
@@ -74,5 +74,10 @@ body{
 
  #Try{
   font-family: "Bauhaus 93";
-  font-size: 2.5em;
+  font-size: 2em;
+ }
+ 
+ #status{
+  font-family: "Bauhaus 93";
+  font-size: 2em;
  }

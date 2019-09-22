@@ -29,6 +29,7 @@ Component {
         if(guess.length == this.state.chars.length){
             if(guess.join('').toString() == this.state.chars.join('').toString()){
                  this.setState({guess: [], completed: true})
+                 document.getElementById('status').innerHTML = `Win!!`
                 if(this.state.attempt == 1){
                     document.getElementById('Try').innerHTML = `VERY LUCKY!!`
                 }
@@ -38,10 +39,10 @@ Component {
                 if(this.state.attempt == 3){
                     document.getElementById('Try').innerHTML = `Good work!!`
                 }
-                if(this.state.attempt == 1){
+                if(this.state.attempt == 4){
                     document.getElementById('Try').innerHTML = `You do it!!`
                 }
-                if(this.state.attempt == 1){
+                if(this.state.attempt == 5){
                     document.getElementById('Try').innerHTML = `So close!!`
                 }
             }
