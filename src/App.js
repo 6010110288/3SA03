@@ -7,6 +7,7 @@ import './w3.css'
 const word = ["Good", "Morning", "Teacher", "Goodbye", "See", "You", "Tomorrow"];
 const word_rand = word[Math.floor(Math.random()*word.length)];
 
+
 class App extends Component {
   reload(){
     window.location.reload(true)

@@ -30,21 +30,6 @@ Component {
             if(guess.join('').toString() == this.state.word){
                  this.setState({guess: [], completed: true})
                  document.getElementById('status').innerHTML = `Win!!`
-                if(this.state.attempt == 1){
-                    document.getElementById('Try').innerHTML = `VERY LUCKY!!`
-                }
-                if(this.state.attempt == 2){
-                    document.getElementById('Try').innerHTML = `Lucky!!`
-                }
-                if(this.state.attempt == 3){
-                    document.getElementById('Try').innerHTML = `Good work!!`
-                }
-                if(this.state.attempt == 4){
-                    document.getElementById('Try').innerHTML = `You do it!!`
-                }
-                if(this.state.attempt == 5){
-                    document.getElementById('Try').innerHTML = `So close!!`
-                }
             }
             else{
                 this.setState({guess: [], attempt: this.state.attempt + 1})
