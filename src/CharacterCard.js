@@ -19,10 +19,13 @@ export default class CharacterCard extends Component {
             document.getElementById('Round').innerHTML = `Round ${this.props.attempt}`
             this.setState({active: false})
         }
-        if(this.props.attempt == 2){
+        if(this.props.attempt == 2 && !this.props.completed){
             document.getElementById('Try').innerHTML = `Try again`
         }
-        else if(this.props.attempt == 3){
+        else{
+            document.getElementById('Try').innerHTML = `Lucky!!`
+        }
+        if(this.props.attempt == 3){
             document.getElementById('Try').innerHTML = `Work hard`
         }
         else if(this.props.attempt == 4){
