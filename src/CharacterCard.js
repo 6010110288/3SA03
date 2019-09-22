@@ -33,7 +33,6 @@ export default class CharacterCard extends Component {
         }
         else if(this.props.attempt == 6){
             document.getElementById('Try').innerHTML = `Unlucky`
-            document.getElementById('new').innerHTML = `New Game?`
         }
     }
 

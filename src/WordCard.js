@@ -29,13 +29,10 @@ Component {
         if(guess.length == this.state.chars.length){
             if(guess.join('').toString() == this.state.chars.join('').toString()){
                  this.setState({guess: [], completed: true})
-                 console.log(`You Win!!`)
-                 window.location.reload();
+                 document.getElementById('Try').innerHTML = `VERY LUCKY!!`
             }
             else{
                 this.setState({guess: [], attempt: this.state.attempt + 1})
-                
-                console.log(`Try Again.`) 
             }   
         } 
     }
