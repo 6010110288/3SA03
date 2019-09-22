@@ -30,6 +30,7 @@ Component {
             if(guess.join('').toString() == this.state.chars.join('').toString()){
                  this.setState({guess: [], completed: true})
                  console.log(`You Win!!`)
+                 window.location.reload();
             }
             else{
                 this.setState({guess: [], attempt: this.state.attempt + 1})
