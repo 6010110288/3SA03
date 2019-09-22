@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
     <div className="App">
-      <p id="Title">Test Your Luck</p>
+      <p id="Title">Find a word!!</p>
       <WordCard value= {word_rand} />
       <br></br><br></br>
       <p id="Round">Round 1 </p>
